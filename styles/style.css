@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #f25285;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: ;
+  --default-font-family: "Playfair Display", serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+}
+
+h1 {
+  font-size: 96px;
+}
+
+.heading {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.heading p {
+  font-size: 36px;
+  margin: 0;
+}
+
+.heading h2 {
+  font-family: var(--default-font-family);
+  line-height: 2;
+  font-size: 24px;
+}
+
+.btn-branding {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
